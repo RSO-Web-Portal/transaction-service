@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kumuluz.ee.discovery:kumuluzee-discovery-common:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/discovery/kumuluzee-discovery-common/1.1.0-SNAPSHOT/kumuluzee-discovery-common-1.1.0-20171213.145647-21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/discovery/kumuluzee-discovery-common/1.1.0-SNAPSHOT/kumuluzee-discovery-common-1.1.0-20171213.145647-21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/discovery/kumuluzee-discovery-common/1.1.0-SNAPSHOT/kumuluzee-discovery-common-1.1.0-20171213.145647-21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

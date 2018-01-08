@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kumuluz.ee.fault.tolerance:kumuluzee-fault-tolerance-common:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/fault/tolerance/kumuluzee-fault-tolerance-common/1.0.0-SNAPSHOT/kumuluzee-fault-tolerance-common-1.0.0-20171219.204615-13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/fault/tolerance/kumuluzee-fault-tolerance-common/1.0.0-SNAPSHOT/kumuluzee-fault-tolerance-common-1.0.0-20171219.204615-13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/fault/tolerance/kumuluzee-fault-tolerance-common/1.0.0-SNAPSHOT/kumuluzee-fault-tolerance-common-1.0.0-20171219.204615-13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

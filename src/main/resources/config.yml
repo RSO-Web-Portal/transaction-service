@@ -1,0 +1,26 @@
+kumuluzee:
+  name: catalogue-service
+  env:
+    name: dev
+  version: 1.0.0
+  server:
+    base-url: http://localhost:8089
+    http:
+      port: 8089
+  discovery:
+    etcd:
+      hosts: http://localhost:2379
+  health:
+    checks:
+      http-health-check:
+        connection-url: http://www.bolha.com
+    servlet:
+      mapping: /health
+      enabled: true
+  metrics:
+    web-instrumentation:
+      - name: products-endpoint
+        url-pattern: /v1/products/*
+    servlet:
+      enabled: true
+      mapping: /metrics

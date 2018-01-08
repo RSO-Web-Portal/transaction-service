@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kumuluz.ee.metrics:kumuluzee-metrics-core:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/metrics/kumuluzee-metrics-core/1.0.0-SNAPSHOT/kumuluzee-metrics-core-1.0.0-20171219.120606-23.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/metrics/kumuluzee-metrics-core/1.0.0-SNAPSHOT/kumuluzee-metrics-core-1.0.0-20171219.120606-23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kumuluz/ee/metrics/kumuluzee-metrics-core/1.0.0-SNAPSHOT/kumuluzee-metrics-core-1.0.0-20171219.120606-23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

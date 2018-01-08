@@ -1,0 +1,24 @@
+sudo: required
+
+language: java
+dist: trusty
+
+jdk:
+- openjdk8
+
+services:
+  - docker
+
+before_install:
+  - mvn clean package
+  - docker build -t rsodocker123:transaction-service .
+  - docker run -d -p 127.0.0.1:8089:8089 rsodocker123:transaction-service /bin/sh -c "cd /root;"
+  - docker ps -a
+  - docker run rsodocker123:transaction-service /bin/sh -c "cd /root;"
+  
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+    docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
+    docker tag rsodocker123:transaction-service rsodocker123/transaction-service:latest ;
+    docker push rsodocker123/transaction-service:latest;
+    fi
